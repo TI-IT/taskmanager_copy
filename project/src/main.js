@@ -112,11 +112,8 @@ const createBoardTemplate = () => {
         </div>
 
         <div class="board__tasks">
-        ${createTaskTemplate()}
 
         </div>
-
-        <button class="load-more" type="button">load more</button>
       </section>
         `
     )
