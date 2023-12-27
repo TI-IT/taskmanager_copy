@@ -1,7 +1,8 @@
 module.exports = {
     "env": {
-        "browser": true,
-        "es6": true
+        node: true,
+        browser: true,
+        es6: true // or "es2021" for enabling ECMAScript 2021 features.
     },
     "extends": "htmlacademy/es6",
     "overrides": [
