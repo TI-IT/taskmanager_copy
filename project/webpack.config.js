@@ -1,11 +1,11 @@
-const path = require(`path`); // использование одинарных кавычек для строк без интерполяции
+const path = require(`path`);
 
 module.exports = {
-  mode: `development`, // одинарные кавычки
-  entry: `./src/main.js`, // одинарные кавычки
+  mode: `development`,
+  entry: `./src/main.js`,
   output: {
-    filename: `bundle.js`, // одинарные кавычки
-    path: path.join(__dirname, `public`) // исправление на 'join', использование одинарных кавычек
+    filename: `bundle.js`,
+    path: path.join(__dirname, `public`)
   },
   devtool: `source-map`, // Подключаем sourcemap
   devServer: {

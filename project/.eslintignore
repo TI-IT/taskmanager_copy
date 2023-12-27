@@ -1,0 +1,6 @@
+webpack.config.js
+*.css
+*.woff
+*.woff2
+*.html
+*.md

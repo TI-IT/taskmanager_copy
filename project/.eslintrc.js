@@ -1,6 +1,5 @@
 module.exports = {
     "env": {
-        node: true,
         browser: true,
         es6: true // or "es2021" for enabling ECMAScript 2021 features.
     },
@@ -22,5 +21,6 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-    }
+    },
+    ignorePatterns: ['*.css', '*.woff', '*.woff2', '*.html', '*.md'],
 }
