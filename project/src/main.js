@@ -4,8 +4,10 @@ import {createSiteMenuTemplate} from './components/siteMenu.js';
 import {createTaskTemplate} from './components/task.js';
 import {createTaskEditTemplate} from './components/task-edit.js';
 import {createLoadMoreButtonTemplate} from './components/load-more-button.js';
+import {objectMethod} from './object-method.js';
 
-
+console.log(objectMethod())
+alert(objectMethod())
 
 const TASK_COUNT = 3;
 
